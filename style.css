@@ -23,10 +23,10 @@
   --cream:        rgba(200, 57, 58, 0.20);
   --gold-bright:  #e05050;
 
-  --font-display: 'Great Vibes', cursive;
-  --font-eyebrow: 'Cinzel', serif;
+  --font-display: 'Pinyon Script', 'Playfair Display', cursive;
+  --font-eyebrow: 'Marcellus', 'Playfair Display', serif;
   --font-body:    'Lora', serif;
-  --font-sub:     'Cormorant Garamond', serif;
+  --font-sub:     'Playfair Display', 'Cormorant Garamond', serif;
   --font-arabic:  'Amiri', serif;
 
   --section-pad: clamp(72px, 12vw, 128px);
@@ -319,10 +319,10 @@ body {
 }
 
 .bismillah-en {
-  font-family: var(--font-eyebrow);
-  font-size: 0.68rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  font-family: var(--font-sub);
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: none;
   color: var(--muted);
   font-style: normal;
   margin-bottom: 26px;
@@ -330,10 +330,10 @@ body {
 }
 
 .eyebrow {
-  font-family: var(--font-eyebrow);
-  font-size: 0.68rem;
-  letter-spacing: 0.32em;
-  text-transform: uppercase;
+  font-family: var(--font-sub);
+  font-size: 1.05rem;
+  letter-spacing: 0.16em;
+  text-transform: none;
   color: var(--muted);
   margin-bottom: 18px;
   animation: fadeUp 1s ease 0.3s both;
@@ -378,10 +378,10 @@ body {
 }
 
 .date-en {
-  font-family: var(--font-eyebrow);
-  font-size: 0.78rem;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
+  font-family: var(--font-sub);
+  font-size: 1.05rem;
+  letter-spacing: 0.14em;
+  text-transform: none;
   color: var(--muted);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -391,10 +391,10 @@ body {
 }
 
 .date-hijri {
-  font-family: var(--font-eyebrow);
-  font-size: 0.72rem;
-  letter-spacing: 0.20em;
-  text-transform: uppercase;
+  font-family: var(--font-sub);
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: none;
   color: var(--gold);
   margin-top: 10px;
 }
@@ -473,10 +473,10 @@ body {
 }
 
 .section-eyebrow {
-  font-family: var(--font-eyebrow);
-  font-size: 0.72rem;
-  letter-spacing: 0.26em;
-  text-transform: uppercase;
+  font-family: var(--font-sub);
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  text-transform: none;
   color: var(--muted);
   margin-bottom: 14px;
 }
@@ -535,26 +535,27 @@ body {
 
 .family-role {
   font-family: var(--font-eyebrow);
-  font-size: 0.65rem;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
+  font-size: 1.25rem;
+  letter-spacing: 0.14em;
+  text-transform: capitalize;
   color: var(--gold);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .family-person-name {
   font-family: var(--font-display);
-  font-size: clamp(2.4rem, 5vw, 3.4rem);
+  font-size: clamp(2.8rem, 6vw, 4.0rem);
   color: var(--gold-soft);
-  line-height: 1.1;
+  line-height: 1.15;
   margin-bottom: 12px;
 }
 
 .family-relation {
   font-family: var(--font-eyebrow);
-  font-size: 0.6rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  font-size: 1.0rem;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
   color: var(--muted);
   margin-bottom: 6px;
 }
@@ -576,11 +577,11 @@ body {
 }
 
 .occasion-event-title {
-  font-family: var(--font-eyebrow);
-  font-size: 0.72rem;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: var(--muted);
+  font-family: var(--font-sub);
+  font-size: 1.25rem;
+  letter-spacing: 0.12em;
+  text-transform: none;
+  color: var(--gold-soft);
   margin-bottom: 28px;
   padding-bottom: 16px;
   border-bottom: 1px solid var(--line);
@@ -619,10 +620,10 @@ body {
 }
 
 .occasion-label {
-  font-family: var(--font-eyebrow);
-  font-size: 10px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-family: var(--font-sub);
+  font-size: 0.92rem;
+  letter-spacing: 0.08em;
+  text-transform: none;
   color: var(--muted);
   margin-bottom: 4px;
 }
@@ -693,10 +694,10 @@ body {
 .count-label {
   display: block;
   margin-top: 8px;
-  font-family: var(--font-eyebrow);
-  font-size: 0.62rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
+  font-family: var(--font-sub);
+  font-size: 0.88rem;
+  letter-spacing: 0.12em;
+  text-transform: none;
   color: var(--gold-soft);
 }
 
@@ -1077,10 +1078,10 @@ textarea:focus-visible {
 }
 
 .wish-label {
-  font-family: var(--font-eyebrow);
-  font-size: 0.7rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+  font-family: var(--font-sub);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: none;
   color: var(--muted);
 }
 
