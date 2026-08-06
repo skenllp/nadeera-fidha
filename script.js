@@ -186,7 +186,7 @@ bgMusic.addEventListener('play', () => syncMusicBtn(true));
 // REVEAL ON SCROLL
 // ============================================================
 const revealTargets = document.querySelectorAll(
-  '.family-card, .occasion-card, .countdown-grid, .venue-card, .rsvp-card, .section-title, .section-eyebrow, .invite-note p, .couples-img-container, .wish-card'
+  '.family-grid, .family-card, .occasion-grid, .occasion-card, .countdown-grid, .venue-card, .rsvp-card, .section-title, .section-eyebrow, .invite-note p, .couples-img-container, .wish-card'
 );
 
 revealTargets.forEach(el => el.classList.add('reveal'));
